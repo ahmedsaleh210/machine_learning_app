@@ -1,0 +1,25 @@
+name: ml_model
+description: Machine Learning Project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_tflite: ^1.0.1
+  image_picker: ^0.8.6+1
+  lottie: ^2.2.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model/
+    - assets/images/
