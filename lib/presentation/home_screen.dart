@@ -5,8 +5,6 @@ import 'package:ml_model/extension.dart';
 import 'package:ml_model/presentation/widget/circular_button.dart';
 import '../business_logic/home_cubit.dart';
 
-const numClasses = 2;
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
